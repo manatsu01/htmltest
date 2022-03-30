@@ -17,3 +17,113 @@ a{
   color: goldenrod;
   margin-right: 35px;
 }
+
+.top {
+  position: relative;
+  }
+
+.top h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%,-50%);
+  -webkit-transform: translate(-50%,-50%);
+  transform: translate(-50%,-80%);
+  margin:0;
+  color:aliceblue;
+  padding:0;
+  /*文字の装飾は省略*/
+  }
+
+  .top h2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,20%);
+    margin:0;
+    color:aliceblue;
+    padding:0;
+    /*文字の装飾は省略*/
+    }
+
+    .discord p {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      -ms-transform: translate(-50%,-50%);
+      -webkit-transform: translate(-50%,-50%);
+      transform: translate(150%,70%);
+      margin:0;
+      padding:0;
+      /*文字の装飾は省略*/
+      }
+  
+    .copyright p {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      -ms-transform: translate(-50%,-50%);
+      -webkit-transform: translate(-50%,-50%);
+      transform: translate(-50%,5000%);
+      margin:0;
+      color:gray;
+      padding:0;
+      /*文字の装飾は省略*/
+      }
+    
+    
+
+.top img {
+  width: 100%;
+  }
+
+  /* information
+------------------------------ */
+.wrapper {
+  padding: 80px 0 100px;
+  color: #222;
+  text-align: center;
+  background-color: white;
+}
+
+.wrapper {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1000px;
+}
+
+.wrapper h1 {
+  display: inline-block;
+  margin: 0 auto 40px;
+  padding-bottom: 10px;
+  font-size: 1.25rem;
+  font-weight: 700;
+  border-bottom: 4px solid #222;
+}
+
+.wrapper article {
+  margin-bottom: 40px;
+  padding: 40px 40px 35px;
+  text-align: left;
+  border-radius: 20px;
+  background-color:gray;
+}
+
+.wrapper article .text_date {
+  font-size: 0.85rem;
+}
+
+.wrapper article h2 {
+  margin-bottom: 30px;
+  padding-bottom: 12px;
+  font-size: 1.15rem;
+  line-height: 1.8em;
+  border-bottom: 2px solid aqua;
+}
+
+.wrapper article .text_content {
+  line-height: 2.0em;
+  font-size: 0.85rem;
+}

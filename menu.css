@@ -9,6 +9,7 @@ nav{
 
 .disco{
   color: #0056B3;
+  transform: translateX(10px);
 }
 
 .discord-info{
@@ -96,6 +97,7 @@ a{
 .top img{
   width: 100%;
   transform: translateY(-25px);
+  width: 100%;
 }
 
 

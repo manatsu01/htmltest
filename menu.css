@@ -151,3 +151,12 @@ a{
 body {
   background-color: white;
 }
+
+.rules {
+  justify-content: center;
+  background-color: #E3F2FD;
+}
+
+.green {
+  color:#55FF55
+}
